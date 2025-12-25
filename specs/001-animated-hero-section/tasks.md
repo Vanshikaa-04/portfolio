@@ -7,10 +7,10 @@
 
 **Purpose**: Ensure the environment is ready for component development.
 
-- [ ] T001 [P] Verify that GSAP (`gsap`) and its React wrapper (`@gsap/react`) are installed by checking `package.json`.
-- [ ] T002 [P] Verify that Storybook is configured for the project by checking for a `.storybook` directory.
-- [ ] T003 Create the main component file `src/components/organisms/Hero/Hero.tsx` with a placeholder div.
-- [ ] T004 Create the Storybook file `src/components/organisms/Hero/Hero.stories.tsx` for the Hero component.
+- [x] T001 [P] Verify that GSAP (`gsap`) and its React wrapper (`@gsap/react`) are installed by checking `package.json`.
+- [x] T002 [P] Verify that Storybook is configured for the project by checking for a .storybook directory.
+- [x] T003 Create the main component file `src/components/organisms/Hero/Hero.tsx` with a placeholder div.
+- [x] T004 Create the Storybook file `src/components/organisms/Hero/Hero.stories.tsx` for the Hero component.
 
 ---
 
@@ -22,16 +22,16 @@
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Implement the basic layout of the Hero organism in `src/components/organisms/Hero/Hero.tsx` using TailwindCSS, ensuring it fills the full viewport height (100vh).
-- [ ] T006 [P] [US1] Create a `Typography` atom component in `src/components/atoms/Typography/Typography.tsx` to handle consistent text styling for headings and paragraphs.
-- [ ] T007 [P] [US1] Create a `CTAButton` molecule in `src/components/molecules/CTAButton/CTAButton.tsx` that renders the "View Projects" and "Download Resume" buttons with their distinct styles.
-- [ ] T008 [P] [US1] Create a `SocialLinks` molecule in `src/components/molecules/SocialLinks/SocialLinks.tsx` to display the row of social media icons.
-- [ ] T009 [US1] Integrate the `Typography`, `CTAButton`, and `SocialLinks` components into the `Hero` organism in `src/components/organisms/Hero/Hero.tsx`.
-- [ ] T010 [P] [US1] Create a custom hook `useTypingEffect` in `src/hooks/useTypingEffect.ts` to encapsulate the GSAP logic for the typing animation.
-- [ ] T011 [US1] Integrate the `useTypingEffect` hook into the `Hero` organism in `src/components/organisms/Hero/Hero.tsx` to animate the main heading roles.
-- [ ] T012 [US1] Implement the responsive design for the `Hero` component using TailwindCSS utility classes in `src/components/organisms/Hero/Hero.tsx`, ensuring it adapts correctly to mobile, tablet, and desktop breakpoints.
-- [ ] T013 [P] [US1] Add the animated scroll indicator icon to the bottom of the `Hero` component in `src/components/organisms/Hero/Hero.tsx`.
-- [ ] T014 [US1] Update the Storybook story in `src/components/organisms/Hero/Hero.stories.tsx` to reflect the final component implementation and its different states.
+- [x] T005 [US1] Implement the basic layout of the Hero organism in `src/components/organisms/Hero/Hero.tsx` using TailwindCSS, ensuring it fills the full viewport height (100vh).
+- [x] T006 [P] [US1] Create a `Typography` atom component in `src/components/atoms/Typography/Typography.tsx` to handle consistent text styling for headings and paragraphs.
+- [x] T007 [P] [US1] Create a `CTAButton` molecule in `src/components/molecules/CTAButton/CTAButton.tsx` that renders the "View Projects" and "Download Resume" buttons with their distinct styles.
+- [x] T008 [P] [US1] Create a `SocialLinks` molecule in `src/components/molecules/SocialLinks/SocialLinks.tsx` to display the row of social media icons.
+- [x] T009 [US1] Integrate the `Typography`, `CTAButton`, and `SocialLinks` components into the `Hero` organism in `src/components/organisms/Hero/Hero.tsx`.
+- [x] T010 [P] [US1] Create a custom hook `useTypingEffect` in `src/hooks/useTypingEffect.ts` to encapsulate the GSAP logic for the typing animation.
+- [x] T011 [US1] Integrate the `useTypingEffect` hook into the `Hero` organism in `src/components/organisms/Hero/Hero.tsx` to animate the main heading roles.
+- [x] T012 [US1] Implement the responsive design for the `Hero` component using TailwindCSS utility classes in `src/components/organisms/Hero/Hero.tsx`, ensuring it adapts correctly to mobile, tablet, and desktop breakpoints.
+- [x] T013 [P] [US1] Add the animated scroll indicator icon to the bottom of the `Hero` component in `src/components/organisms/Hero/Hero.tsx`.
+- [x] T014 [US1] Update the Storybook story in `src/components/organisms/Hero/Hero.stories.tsx` to reflect the final component implementation and its different states.
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently in Storybook.
 
@@ -41,8 +41,8 @@
 
 **Purpose**: Final review and quality checks.
 
-- [ ] T015 [US1] Review the `Hero` component and its sub-components for accessibility (ARIA roles, keyboard navigation, color contrast).
-- [ ] T016 [US1] Perform a final performance check of the `Hero` component against the Lighthouse (>90) and 60fps metrics defined in the spec.
+- [x] T015 [US1] Review the `Hero` component and its sub-components for accessibility (ARIA roles, keyboard navigation, color contrast).
+- [x] T016 [US1] Perform a final performance check of the `Hero` component against the Lighthouse (>90) and 60fps metrics defined in the spec.
 
 ---
 
