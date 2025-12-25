@@ -8,7 +8,7 @@
 **Purpose**: Ensure the environment is ready for component development.
 
 - [ ] T001 [P] Verify that GSAP (`gsap`) and its React wrapper (`@gsap/react`) are installed by checking `package.json`.
-- [ ] T002 [P] Verify that Storybook is configured for the project by checking for a `.storybook` directory.
+- [X] T002 [P] Verify that Storybook is configured for the project by checking for a `.storybook` directory.
 - [ ] T003 Create the main component file `src/components/organisms/Hero/Hero.tsx` with a placeholder div.
 - [ ] T004 Create the Storybook file `src/components/organisms/Hero/Hero.stories.tsx` for the Hero component.
 
